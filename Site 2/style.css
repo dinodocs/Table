@@ -1,0 +1,40 @@
+#topo {
+  background-color: rgb(34, 40, 49);
+}
+#fonttopo {
+  padding: 1px;
+  margin: auto;
+  margin-left: 20px;
+  font-size: 70px;
+  color: white;
+}
+#logo {
+  padding: 10px;
+  margin: auto;
+  width: 100px;
+  height: auto;
+}
+#menu {
+  background-color: rgb(0, 173, 181);
+  width: 600px;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  padding: 20px;
+}
+#conteudo {
+  border: 2px solid rgb(0, 173, 181);
+  text-align: justify;
+  padding: 20px;
+  color: rgb(34, 40, 49);
+}
+#rodape {
+  background-color: rgb(34, 40, 49);
+}
+#fontroda {
+  padding: 1px;
+  margin: auto;
+  margin-left: 20px;
+  font-size: 15px;
+  color: white;
+}

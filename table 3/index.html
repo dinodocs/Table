@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid;
+        border-collapse: collapse;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Tabela 1</h1>
+    <table>
+      <tr>
+        <td colspan="3" align="center" class="tabela1">Tabela 1</td>
+      </tr>
+      <tr>
+        <td align="center" class="tabela1">1</td>
+        <td align="center" class="tabela1">2</td>
+        <td align="center" class="tabela1">3</td>
+      </tr>
+      <tr>
+        <td align="center" class="tabela1">4</td>
+        <td align="center" class="tabela1">5</td>
+        <td align="center" class="tabela1">6</td>
+      </tr>
+    </table>
+    <hr />
+    <h1>Tabela 2</h1>
+    <table class="tabelas">
+      <tr>
+        <td rowspan="3">
+          <div id="tabela2text">Tabela 2</div>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" class="tabela2">1</td>
+        <td align="center" class="tabela2">2</td>
+        <td align="center" class="tabela2">3</td>
+      </tr>
+      <tr>
+        <td align="center" class="tabela2">4</td>
+        <td align="center" class="tabela2">5</td>
+        <td align="center" class="tabela2">6</td>
+      </tr>
+    </table>
+    <hr />
+    <h1>Tabela 3</h1>
+    <table>
+      <tr>
+        <td colspan="5" class="tabela3">
+          <div id="tabela3">Tabela 3</div>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="4" class="tabela3">1</td>
+        <td class="tabela3">2</td>
+        <td class="tabela3">3</td>
+        <td class="tabela3">4</td>
+        <td class="tabela3">5</td>
+      </tr>
+      <tr>
+        <td class="tabela3">6</td>
+        <td class="tabela3">7</td>
+        <td rowspan="2" class="tabela3">8</td>
+        <td class="tabela3">9</td>
+      </tr>
+      <tr>
+        <td class="tabela3">10</td>
+        <td class="tabela3">11</td>
+        <td class="tabela3">12</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="tabela3">13</td>
+        <td class="tabela3" >14</td>
+      </tr>
+    </table>
+  </body>
+</html>

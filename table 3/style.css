@@ -1,0 +1,24 @@
+.tabela1 {
+  width: 4em;
+  height: 2em;
+}
+
+#tabela2text {
+  display: block;
+  margin-left: 33%;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  width: 4em;
+  height: auto;
+}
+
+.tabela2 {
+  width: 4em;
+  height: 2em;
+}
+
+.tabela3 {
+  width: 4em;
+  height: 3em;
+  text-align: center;
+}
